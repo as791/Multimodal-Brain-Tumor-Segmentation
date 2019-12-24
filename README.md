@@ -2,6 +2,7 @@
 
 ## About Data 
 The data was collected from Multimodal Brain Tumor Segmentation Challenge 2018 (BraTS) Data.
+My google drive directory link:- https://drive.google.com/drive/folders/1RSjZ6ASBMSPgUtFQAzvpBx1aW5VXPtAM?usp=sharing
 
 ### Imaging Data Description
 1. All BraTS multimodal scans were available as NIfTI files (.nii.gz) having different modalitied:-
