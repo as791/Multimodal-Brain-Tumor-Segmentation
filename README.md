@@ -1,7 +1,7 @@
 # Multimodal Brain Tumor Segmentation 
 
 ## About Data 
-The data was collected from Multimodal Brain Tumor Segmentation Challenge 2018 (BraTS) Data. The link to access the data:- https://www.med.upenn.edu/sbia/brats2018/data.html
+The data was collected from Multimodal Brain Tumor Segmentation Challenge 2018 (BraTS) Data.
 
 ### Imaging Data Description
 1. All BraTS multimodal scans were available as NIfTI files (.nii.gz) having different modalitied:-
@@ -10,7 +10,7 @@ The data was collected from Multimodal Brain Tumor Segmentation Challenge 2018 (
   - T2-weighted (T2) 
   - T2 Fluid Attenuated Inversion Recovery (FLAIR)
 
-2. The three segmentation Labels as described in the BraTS reference paper, published in IEEE Transactions for Medical Imaging (https://ieeexplore.ieee.org/document/6975210):- 
+2. The three segmentation Labels as described in the BraTS reference paper, published in IEEE Transactions for Medical Imaging :- 
   - GD-enhancing tumor (ET — label 4) 
   - Peritumoral edema (ED — label 2)
   - Necrotic and non-enhancing tumor core (NCR/NET — label 1)
@@ -28,10 +28,10 @@ Here N = Number of HGG/LGG data
      N1 = Dimension of each 2D slice
      X = Number of modalities
 - So, here as Google Colab Free GPU was used to do all pre-processing and training so due to RAM consumption the data was handeled appropriately:-
-1. Firstly, HGG and LGG folders were handeled one by one to extract the 3D volume of (N,155,240,240,4) dimension. Now, HGG contains 210 patients' scans and LGG contains 75 patients' scans so, the HGG data was divided in three sets namely data11.npy, data12.npy, data13.npy each consisting of 70 patients thus N=70 and data2.npy correspond to LGG data with N=75. Similarly, corresponding ground truth were also extracted with dimension of (N,155,240,240) namely gt11.npy, gt12.npy, gt13.npy, gt2.npy respectively.
-2. Now, each data was pre-processed one by one. Now, as all 155 slices does not show tumor region so here only mid portion i.e. from 30th slice to 120th slice was taken for creating the final data, and finally all were reshaped to (N1,240,240,4) for data and (N1,240,240,4) for ground truth using one-hot encoding. Here, N1 = 90X70 = 5600 for HGG, N1 = 90X75 = 6750 for LGG.
-3. Next, each data is cropped to centre with final dimension of (N1,192,192,4).
-4. Finally, the data was randomly split into training, validation and test data with 60%:20%:20% of ratio respectively.
+  1. Firstly, HGG and LGG folders were handeled one by one to extract the 3D volume of (N,155,240,240,4) dimension. Now, HGG contains 210 patients' scans and LGG contains 75 patients' scans so, the HGG data was divided in three sets namely data11.npy, data12.npy, data13.npy each consisting of 70 patients thus N=70 and data2.npy correspond to LGG data with N=75. Similarly, corresponding ground truth were also extracted with dimension of (N,155,240,240) namely gt11.npy, gt12.npy, gt13.npy, gt2.npy respectively.
+  2. Now, each data was pre-processed one by one. Now, as all 155 slices does not show tumor region so here only mid portion i.e. from 30th slice to 120th slice was taken for creating the final data, and finally all were reshaped to (N1,240,240,4) for data and (N1,240,240,4) for ground truth using one-hot encoding. Here, N1 = 90X70 = 5600 for HGG, N1 = 90X75 = 6750 for LGG.
+  3. Next, each data is cropped to centre with final dimension of (N1,192,192,4).
+  4. Finally, the data was randomly split into training, validation and test data with 60%:20%:20% of ratio respectively.
 ### Proposed Model
 Here we have proposed U-Net for our semnatic segmentation problem:-
 ![](/unet.png)
@@ -72,3 +72,8 @@ Here we have proposed U-Net for our semnatic segmentation problem:-
 | HGG Set-2   |   0.9855   |
 | HGG Set-3   |   0.9793   |
 | LGG         |   0.9950   |
+
+## References
+- https://www.med.upenn.edu/sbia/brats2018.html
+- https://www.jeremyjordan.me/semantic-segmentation/
+- https://ieeexplore.ieee.org/document/6975210
