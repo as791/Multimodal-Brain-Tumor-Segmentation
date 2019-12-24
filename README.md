@@ -75,5 +75,6 @@ Here we have proposed U-Net for our semnatic segmentation problem:-
 
 ## References
 - https://www.med.upenn.edu/sbia/brats2018.html
+- https://en.wikipedia.org/wiki/S%C3%B8rensen%E2%80%93Dice_coefficient
 - https://www.jeremyjordan.me/semantic-segmentation/
 - https://ieeexplore.ieee.org/document/6975210
