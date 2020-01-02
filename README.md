@@ -2,7 +2,7 @@
 
 ## About Data 
 The data was collected from Multimodal Brain Tumor Segmentation Challenge 2018 (BraTS) Data.
-My google drive directory link:- https://drive.google.com/drive/folders/1RSjZ6ASBMSPgUtFQAzvpBx1aW5VXPtAM?usp=sharing
+My google drive directory link (view only):- https://drive.google.com/drive/folders/1RSjZ6ASBMSPgUtFQAzvpBx1aW5VXPtAM?usp=sharing
 
 ### Imaging Data Description
 1. All BraTS multimodal scans were available as NIfTI files (.nii.gz) having different modalitied:-
@@ -16,7 +16,14 @@ My google drive directory link:- https://drive.google.com/drive/folders/1RSjZ6AS
   - Peritumoral edema (ED — label 2)
   - Necrotic and non-enhancing tumor core (NCR/NET — label 1)
   - Remaining Region (label 0)
+  
 3. The data were distributed after their pre-processing, i.e. co-registered to the same anatomical template, interpolated to the same resolution (1 mm^3) and skull-stripped.
+
+4. The data consist of two folders LGG(Lower Grade Glioma) and HGG(High Grade Glioma). Each consists mri scan of a patient, each folder itself having four modaltlies and the segmentated results. 
+
+5. As all the scans were formated in NIfTI format (i.e. .nii.gz), so we have used  SimpleITK library for converting .nii.gz format to 3D numpy array. 
+
+6. Provided data was already skull-stripped.
 
 ### Task
 Segmentation of gliomas in pre-operative MRI scans. Use the provided clinically-acquired training data to produce segmentation labels.
