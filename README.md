@@ -66,7 +66,7 @@ Here we have proposed U-Net for our semnatic segmentation problem:-
 
   >![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-1.png)
   >![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-2.png)
-  >![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-1.png)
+  >![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-3.png)
   
 - LGG Result Samples
 
