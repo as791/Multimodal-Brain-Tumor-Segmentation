@@ -11,7 +11,7 @@ My google drive directory link (view only):- https://drive.google.com/drive/fold
   - T2-weighted (T2) 
   - T2 Fluid Attenuated Inversion Recovery (FLAIR)
 
-2. The three segmentation Labels as described in the BraTS reference paper, published in IEEE Transactions for Medical Imaging :- 
+2. The three segmentation Labels as described in the BraTS reference paper, published in IEEE Transactions for Medical Imaging:- 
   - GD-enhancing tumor (ET — label 4) 
   - Peritumoral edema (ED — label 2)
   - Necrotic and non-enhancing tumor core (NCR/NET — label 1)
