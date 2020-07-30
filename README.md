@@ -81,7 +81,7 @@ Here we have proposed U-Net for our semnatic segmentation problem:-
 | HGG Set-3   |   0.9793   |
 | LGG         |   0.9950   |
 ## License
-MIT © [Aryaman Sinha]
+MIT © [Aryaman Sinha]()
 
 ## References
 - https://www.med.upenn.edu/sbia/brats2018.html
