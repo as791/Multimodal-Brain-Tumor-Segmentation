@@ -64,18 +64,18 @@ Here we have proposed U-Net for our semnatic segmentation problem:-
 ## Results Obtained
 - HGG Result Samples
 
-  >![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-1.png)
-  >![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-2.png)
-  >![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-3.png)
+   ![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-1.png)
+   ![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-2.png)
+   ![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-3.png)
   
 - LGG Result Samples
 
-  >![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/LGG-1.png)
-  >![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/LGG-2.png)
+  ![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/LGG-1.png)
+  ![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/LGG-2.png)
   
 ## Evaluated Results
 | Test Data|Dice Coefficient| 
-| ------------- |:-------------:| 
+|-------------|:-------------:| 
 | HGG Set-1   |   0.9795   |
 | HGG Set-2   |   0.9855   |
 | HGG Set-3   |   0.9793   |
