@@ -62,13 +62,13 @@ Here we have proposed U-Net for our semnatic segmentation problem:-
       return 1-dice_coef(y_true, y_pred)
   ```
 ## Results Obtained
-- HGG Result Samples
+HGG Result Samples
 
    ![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-1.png)
    ![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-2.png)
    ![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/HGG-3.png)
   
-- LGG Result Samples
+LGG Result Samples
 
   ![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/LGG-1.png)
   ![](https://github.com/as791/Brain-Tumor-Segmentation-BRaTS-18/blob/master/Result%20Samples/LGG-2.png)
