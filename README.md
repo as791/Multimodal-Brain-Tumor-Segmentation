@@ -2,7 +2,8 @@
 
 ## About Data 
 The data was collected from Multimodal Brain Tumor Segmentation Challenge 2018 (BraTS) Data.
-My google drive directory link (view only):- https://drive.google.com/drive/folders/1RSjZ6ASBMSPgUtFQAzvpBx1aW5VXPtAM?usp=sharing
+My google drive directory link (view only):- https://drive.google.com/drive/folders/1RSjZ6ASBMSPgUtFQAzvpBx1aW5VXPtAM?usp=sharing 
+
 Copy of the model weights:- https://drive.google.com/file/d/11WJbOZ9KdNMwNAGX8ZYyyjD1b3nMH4uG/view?usp=sharing
 
 ### Imaging Data Description
